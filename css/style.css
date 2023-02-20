@@ -382,6 +382,10 @@ span {
   list-style: disc;
 }
 
+ul, li, #para {
+  color: rgb(3, 3, 3);
+}
+
 div,
 p,
 a,
@@ -577,5 +581,5 @@ ul li ul li:hover {
     border-radius:inherit;
   }
   .cards:hover {
-    background-image: linear-gradient(to right,rgb(242 226 226),rgb(205 192 205),rgb(228 218 239));
+    background-image: linear-gradient(to right,rgba(242, 226, 226, 0.311),rgba(203, 239, 230, 0.464),rgb(228 218 239));
 }
